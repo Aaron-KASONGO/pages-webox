@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&display=swap');
+
+.about-img {
+    background-image: url('/assets/img/pexels-tima-miroshnichenko-5912615.jpg');
+    background-size: cover;
+    width: 100vh;
+    height: 75vh;
+
+}
+
+.img-size {
+    width: 200px;
+}
+
+.blue-border {
+    border-color: #4a69bd;
+}
+
+.blue-bg-2 {
+    background-color: #4a69bd;
+}
+
+.blue-bg {
+    background-color: #202C45;
+}
+
+.blue-text {
+    color: #202C45;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-frank {
+    font-family: 'Frank Ruhl Libre', serif;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact</title>
+</head>
+<body class="blue-bg font-frank">
+    <nav class="navbar navbar-expand-md position-absolute blue-bg w-100 navbar-dark py-3" style="z-index: 2;">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <span class="navbar-text shalimar display-6">Webox</span>
+            </a>
+            <button class="navbar-toggler rounded-0" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="nav">
+                <ul class="navbar-nav mx-auto d-flex flex-column flex-md-row justify-content-center align-items-center">
+                  <li class="nav-item"><a href="/" class="nav-link">Accueil</a></li>
+                  <li class="nav-item"><a href="./detail-blog.html" class="nav-link ms-md-2">News tech</a></li>
+                  <li class="nav-item"><a href="./contact.html" class="nav-link ms-md-2 active">Contact</a></li>
+                  <li class="nav-item"><a href="./home-blog.html" class="nav-link ms-md-2">Blog</a></li>
+                  <li class="nav-item"><a href="./about.html" class="nav-link ms-md-2">A propos</a></li>
+                </ul>
+                <div class="d-flex justify-content-center">
+                    <button class="btn rounded-pill px-3 blue-bg-2 text-white">Souscrire</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid">
+        <div class="row g-0 vh-100">
+            <div class="col-md-6 d-none d-md-block h-100 pt-4">
+                <div class="my-5 card blue-bg">
+                    <div class="card-body">
+                        <div id="map" style="width: 700px; height: 500px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                    <div class="card blue-bg border-0">
+                        <div class="card-body mx-5">
+                            <h5 class="h5 my-4 card-text text-white text-center">
+                                CONTACTEZ-NOUS
+                            </h5>
+                            <form action="">
+                                <div class="my-3">
+                                    <input type="text" class="form-control rounded-pill" name="name" id="name" placeholder="Nom">
+                                </div>
+                                <div class="my-3">
+                                    <input type="text" class="form-control rounded-pill" name="name" id="email" placeholder="Email">
+                                </div>
+                                <div class="my-3">
+                                    <input type="text" class="form-control rounded-pill" name="name" id="phone" placeholder="Phone">
+                                </div>
+                                <div class="my-3">
+                                    <textarea class="form-control rounded-3" name="description" id="description" placeholder="Description" cols="30" rows="5"></textarea>
+                                </div>
+                                <div class="my-3">
+                                    <button class="btn blue-bg-2 rounded-pill w-100 text-white" type="submit">Envoyer</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blue-bg text-white pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <h5 class="mb-4 fs-6">Nos services</h5>
+              <ul class="list-unstyled">
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>Sites internet</small></a></li>
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>Developpement mobile</small></a></li>
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>Developpement web</small></a></li>
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>Etudes de projets</small></a></li>
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>Configuration réseaux</small></a></li>
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>Maintenance ordinateurs</small></a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h5 class="mb-4 fs-6">Nos liens</h5>
+              <ul class="list-unstyled">
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>Webox center</small></a></li>
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>News tech</small></a></li>
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>Contacts</small></a></li>
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>À propos de nous</small></a></li>
+                <li class="mt-3"><a href="#" class="text-decoration-none text-white-50"><small>Notre blog</small></a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h5 class="mb-4 fs-6">Nos contacts</h5>
+              <ul class="list-unstyled">
+                <li class="mt-3 text-white-50 d-flex">
+                  <i class="bi bi-geo-alt text-white fs-4 me-2"></i>
+                  <span class="my-auto"><small> Av Ulindi, Lubumbashi, RDC</small></span>
+                </li>
+                <li class="mt-3 text-white-50 d-flex">
+                  <i class="bi bi-envelope-at text-white fs-4 my-auto me-2"></i>
+                  <a href="mailto:mail@example.com" class="text-decoration-none my-auto">monmail@example.com</a>
+                </li>
+                <li class="mt-3 text-white-50 d-flex">
+                  <i class="bi bi-telephone text-white fs-4 me-2"></i>
+                  <span class="my-auto"><small>+243 000 000 000</small></span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h5 class="mb-4 fs-6">Souscrire à la newsletter</h5>
+              <p class="text-muted"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, corrupti ad.</small></p>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="votre mail" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-light" type="button" id="button-addon2">
+                  <i class="bi bi-send"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between text-white-50">
+            <p><small>© 2022 Webox. Tous droits reservés</small></p>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <i class="bi bi-twitter"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="bi bi-facebook"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="bi bi-linkedin"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="bi bi-instagram"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+    <script>
+         var map = L.map('map').setView([50.84673, 4.35247], 12);
+         L.tileLayer('https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png', {
+                attribution:
+                    '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors' +
+                    ', Tiles courtesy of <a href="https://geo6.be/">GEO-6</a>',
+                maxZoom: 18
+            }).addTo(map);
+        
+        var marker = L.marker([50.84673, 4.35247]).addTo(map);
+    </script>
+    <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

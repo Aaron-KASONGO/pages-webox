@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <title>Write</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md w-100 navbar-dark blue-bg" style="z-index: 2;">
+        <div class="container d-flex flex-column">
+            <a href="#" class="navbar-brand my-4">
+                <span class="navbar-text shalimar display-6">Webox</span>
+            </a>
+            <hr class="border w-100" />
+            <button class="navbar-toggler rounded-0" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="nav">
+                <ul class="navbar-nav mx-auto d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <li class="nav-item"><a href="/" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="./detail-blog.html" class="nav-link ms-md-2">News tech</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link ms-md-2">Contact</a></li>
+                    <li class="nav-item"><a href="./home-blog.html" class="nav-link ms-md-2 active">Blog</a></li>
+                    <li class="nav-item"><a href="./about.html" class="nav-link ms-md-2">A propos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container" id="root">
+    </section>
+    
+    <script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script
+      src="https://unpkg.com/@mui/material@latest/umd/material-ui.development.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" data-type="module" src="wysiwyg.js"></script>
+</body>
+</html>
